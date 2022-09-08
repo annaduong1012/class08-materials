@@ -21,21 +21,44 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
-
+  background: black;
+  height: 75px;
+}
+nav *{
+  float: left;
+  width: 10%;
+  color: white;
+  display: block;
+}
+button {
+  background: black;
+}
+nav ul{
+  width: 60%;
+}
+nav form input {
+  background: white;
+  color: black;
+  width: 100%;
+}
+.logo {
+  height: 40px;
+  width: auto;
+}
+/* h1 and date style */
+.welcome {
+  size: 20px;
+  height: 50px;
+  float: left;
+  width: 30%;
+  display: block;
 }
 
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
