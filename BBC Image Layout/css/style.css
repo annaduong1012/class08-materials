@@ -20,10 +20,17 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-
+body {
+  font-size: 18px;
+}
+h1 {
+  font-size: 30px;
+}
+span {
+  font-size: 13px;
+}
 /******************************************
-/* LAYOUT
+/* NAV BAR
 /*******************************************/
 header {
   background: black;
@@ -50,26 +57,32 @@ nav form input {
   height: 40px;
   width: auto;
 }
-
+/******************************************
+/* MAIN SECTION
+/*******************************************/
 /* Clear floats on the main section */
 main {
   clear: both;
+  height: 600px;
 }
 
 /* Make the main section floats */
 main section {
   float: left;
   width: 50%;
-  height: 500px;
+  height: 600px;
+  padding: 10px;
+  display: block;
 }
-
-/* Make the side into 4 columns */
 .side section {
-  float: left;
-  width: 50%;
-  height: 250px;
-
+  width: 340px;
+  height: 300px;
+  display: inline-block;
 }
+
+/******************************************
+/* BOTTOM SECTION
+/*******************************************/
 /* bottom section for news */
 .news {
   clear: both;
@@ -78,6 +91,12 @@ main section {
 .news section {
   float: left;
   width: 33%;
+  height: 100px;
+  padding: 10px;
+}
+/* adjust image size */
+img {
+  width: 100%;
 }
 /******************************************
 /* ADDITIONAL STYLES
@@ -90,3 +109,8 @@ h2, .date {
 .date {
   color: gray;
 }
+
+h2 {
+  padding-left: 10px;
+}
+
