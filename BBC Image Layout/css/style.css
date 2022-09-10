@@ -50,16 +50,43 @@ nav form input {
   height: 40px;
   width: auto;
 }
-/* h1 and date style */
-.welcome {
-  size: 20px;
-  height: 50px;
-  float: left;
-  width: 30%;
-  display: block;
+
+/* Clear floats on the main section */
+main {
+  clear: both;
 }
 
+/* Make the main section floats */
+main section {
+  float: left;
+  width: 50%;
+  height: 500px;
+}
 
+/* Make the side into 4 columns */
+.side section {
+  float: left;
+  width: 50%;
+  height: 250px;
+
+}
+/* bottom section for news */
+.news {
+  clear: both;
+}
+
+.news section {
+  float: left;
+  width: 33%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+/* Make the welcome, date and News same size */
+h2, .date {
+  font-size: 23px;
+}
+
+.date {
+  color: gray;
+}
