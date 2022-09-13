@@ -1,0 +1,124 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* HEADER
+/*******************************************/
+header {
+  height: 60px;
+  border-bottom: 0.5px solid black;
+  padding-left: 200px;
+  font-size: 16px;
+}
+nav > *{
+  float: left;
+  width: 10%;
+  color: blue;
+  margin: 1% 5%;
+}
+nav ul {
+  width: 20%;
+}
+header nav li {
+  float: left;
+  width: 33%;
+  list-style: none;
+  text-decoration: none;
+}
+
+form {
+  width: 15%;
+}
+nav img {
+  height: 40px;
+  width: auto;
+}
+nav a {
+  width: 6%;
+}
+
+/******************************************
+/* MAIN SECTION
+/*******************************************/
+main {
+  clear: both;
+  margin: 5% 15%;
+  height: 500px;
+  padding-left: 5px;
+}
+
+main section{
+  float: left;
+  width: 50%;
+}
+
+main section > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110%;
+}
+
+.maintxt {
+  width: 40%;
+  padding-left: 5px;
+}
+
+h1 {
+  font-size: 55px;
+}
+p {
+  font-size: 18px;
+}
+
+.maintxt ul *{
+  float: left;
+  width: 20%;
+  text-decoration: none;
+  list-style: none;
+}
+
+.maintxt li {
+  border: 0.5px solid blue;
+  text-align: center;
+  padding: 1%;
+  margin: 0.5%;
+  font-size: 18px;
+  background: blue;
+  color: white;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+footer {
+  clear: both;
+  background: lightgray;
+  height: 200px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 4%;
+  color: gray;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
